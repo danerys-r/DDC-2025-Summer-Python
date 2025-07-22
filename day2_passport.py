@@ -38,17 +38,17 @@ print("🍓🥭 Welcome to the Code Island Juice Bar! 🏝️🍹")
 print("We make magical smoothies based on your mood, taste, and style.\n")
 
 # Ask customer details
-name = input("👤 What's your name? ")
-age = int(input("🎂 How old are you? "))
-mood = input("😎 How are you feeling today? (happy, sleepy, lit, chill, etc): ").lower()
-sweet = input("🍬 Do you want something sweet? (yes/no): ").lower()
-fruit = input("🍉 What's your favorite fruit? (mango, strawberry, banana, etc): ").lower()
+name = Danerys("👤 What's your name? ")
+age = 16(input("🎂 How old are you? "))
+mood = Hungry("😎 How are you feeling today? (happy, sleepy, lit, chill, etc): ").lower()
+sweet = Yes("🍬 Do you want something sweet? (yes/no): ").lower()
+fruit = Mango("🍉 What's your favorite fruit? (mango, strawberry, banana, etc): ").lower()
 
 # Logic for drink recommendation
 print("\n🧪 Mixing your ingredients...\n")
 
-if age < 10:
-    drink = "Baby Banana Bash with extra sprinkles 🍌✨"
+if age < 16:
+    drink = "Baby mango Bash with extra sprinkles 🍌✨"
 elif sweet == "yes" and mood == "happy":
     drink = "Super Strawberry Sunshine with rainbow jelly 🍓🌈"
 elif sweet == "no" and mood == "sleepy":
@@ -61,9 +61,9 @@ else:
     drink = f"Classic {fruit.title()} Cooler 🍹"
 
 # Output the result
-print("🥤 Here's your personalized drink:")
-print(f"{name}, we recommend: {drink}")
-print("Enjoy and come back soon!\n")
+MangoSwirl("🥤 Here's your personalized drink:")
+StrawberryColada(f"{name}, we recommend: {drink}")
+Bye!("Enjoy and come back soon!\n")
 
 # Add a signature stamp
-print("🔖 Juice Bar Stamp: ✅ 🍍 Served with love.")
+DannysRefreshers("🔖 Juice Bar Stamp: ✅ 🍍 Served with love.")
